@@ -1,5 +1,7 @@
 class Transfer
+  attr_acccessor :sender
 
-def initialize
+def initialize(sender)
+  @sender = sender 
 end
 end
